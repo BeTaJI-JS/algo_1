@@ -13,12 +13,23 @@
 
 
 
-//ДЗ
-const NumberArray_HomeWork = require("./lib/NumberArray_HomeWork")
+//ДЗ 1 повторение
+// const NumberArray_HomeWork = require("./lib/NumberArray_HomeWork")
+// const arr =[5,3,2,1,11,77,600,11,600,5,5,12,43,24,14,1,543,221,56];
+// console.log(NumberArray_HomeWork.min(arr))
+// console.log(NumberArray_HomeWork.max(arr))
+// console.log(NumberArray_HomeWork.avg(arr))
+// console.log(NumberArray_HomeWork.filter(arr,"div",5))
+// console.log(NumberArray_HomeWork.count(arr,5))
+// console.log(NumberArray_HomeWork.getDictionary(arr))
+
+//ДЗ 2 повторение
+
+const NumberArray_HomeWork = require("./lib/NumberArray_HomeWork_part2")
 const arr =[5,3,2,1,11,77,600,11,600,5,5,12,43,24,14,1,543,221,56];
 console.log(NumberArray_HomeWork.min(arr))
-console.log(NumberArray_HomeWork.max(arr))
-console.log(NumberArray_HomeWork.avg(arr))
-console.log(NumberArray_HomeWork.filter(arr,"div",5))
-console.log(NumberArray_HomeWork.count(arr,5))
-console.log(NumberArray_HomeWork.getDictionary(arr))
+ console.log(NumberArray_HomeWork.max(arr))
+ console.log(NumberArray_HomeWork.avg(arr))
+ console.log(NumberArray_HomeWork.filter(arr,"div",5))
+ console.log(NumberArray_HomeWork.count(arr,5))
+ console.log(NumberArray_HomeWork.getDictionary(arr))
